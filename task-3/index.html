@@ -7,10 +7,8 @@
   <link rel="stylesheet" href="style.css">
 
   <!-- 
-
         Google Fonts used:
         - Montserrat
-
      -->
 </head>
 
@@ -18,43 +16,23 @@
 
   <form action="logged-in.html">
 
-    <label>Full Name</label>
+    <label for="name">Full Name</label>
 
-    <br>
+    <input type="text" name="name" id="name" required>
 
-    <input type="text" name="name">
+    <label for="age">Age</label>
 
-    <br>
+    <input type="number" name="age" id="age" min="10" max="80" required>
 
-    <label>Age</label>
+    <label for="email">Email Address</label>
 
-    <br>
-    
-    <input type="number" name="age">
+    <input type="email" name="email" id="email" required>
 
-    <br>
+    <label for="password">Password</label>
 
-
-    <label>Email Address</label>
-
-    <br>
-    
-    <input type="email" name="email">
-
-    <br>
-
-
-    <label>Password</label>
-
-    <br>
-    
-    <input type="password" name="password">
-
-    <br>
+    <input type="password" name="password" id="password" required>
 
     <button>Log In</button> <a href="#">Forgot Your Password?</a>
-
-
 
   </form>
 </body>

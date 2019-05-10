@@ -1,30 +1,30 @@
 body {
     background-color: #e2e4e5;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
     font-family: 'Montserrat', sans-serif;
-    text-shadow: 0 0 3px #FF0000;
-    font-size: 50px;
-    font-weight: bolder;
-    background-color: white
+    text-shadow: 0 0 2px #FF0000;
+    font-weight: 1100px;
+    background-color: #eceff1;
+    padding: 10px;
 }
 
-img {
-    height: 150px;
-    width: 250px;
-    margin: 20px
-}
-
-img:hover {
+figure {
+    display: inline-block;
     cursor: pointer;
-    border: 8px solid white;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+figure:hover {
+    background-color: #eceff1;
     color: red;
 }
 
 figcaption {
-    /* text-align: center; */
     font-family: 'Satisfy', cursive;
-    font-weight: bold
+    font-weight: bold;
+    font-size: 1.5em;
 }
